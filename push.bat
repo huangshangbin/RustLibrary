@@ -1,5 +1,5 @@
 git add .
-git commit -am "init"
+git commit -am "config library add StringUtils"
 git push origin master
 echo "push complete"
 pause
