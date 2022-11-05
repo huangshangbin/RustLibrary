@@ -1,0 +1,17 @@
+use library::utils::StringUtils;
+fn main() {
+    let strList = StringUtils::splitString("huangshangbin", "a");
+    for str in strList {
+        println!("{}", str);
+    }
+}
+
+
+fn main() {
+    let srcStr = String::from("huangshangbin");
+    let splitStr = String::from("a");
+    let strList = StringUtils::splitString(srcStr.as_str(), splitStr.as_str());
+    for str in strList {
+        println!("{}", str);
+    }
+}
